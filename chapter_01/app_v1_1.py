@@ -7,6 +7,7 @@ app.layout = html.Div([
     html.H1('Hello, World!')
 ])
 
-
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    # I change the debug to False otherwise too slow
+    app.run_server(debug=False, port=8051)
+

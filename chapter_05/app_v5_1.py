@@ -145,4 +145,4 @@ def plot_gini_country_barchart(country):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
